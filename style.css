@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+
+button{
+    padding: 10px;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    
+}
+
+#bulbOff{
+    margin-right: 20px;
+}
+
+#bulbOn{
+    margin-left: 20px;
+}
+
+img{
+
+     width: 300px;
+    
+}
+
+
+@media only screen and (max-width: 360px) {
+    
+
+    img{
+
+        width: 150px;
+       
+   }
+
+   button{
+
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    
+    width: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    
+   }
+   .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-right: 50px;
+}
+}
